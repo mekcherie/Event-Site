@@ -1,9 +1,9 @@
-function returningGuestChanged(isChecked) {
+function returningGuestChanged (isChecked) {
     console.log(isChecked)
-    newGuestInfo = document.getElementById('new-guest-info')
+    const newGuestInfo = document.getElementById('new-guest-info')
     if (isChecked) {
-        newGuestInfo.style.display = 'none'
+      newGuestInfo.style.display = 'none'
     } else {
-        newGuestInfo.style.display = 'block'
+      newGuestInfo.style.display = 'block'
     }
-}
+  }
